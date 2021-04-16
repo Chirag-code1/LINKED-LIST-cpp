@@ -91,7 +91,6 @@ void deletion(node* &head, int val){
     delete todelete;
 }
 
-
 int main()
 {
     node* head=NULL;
