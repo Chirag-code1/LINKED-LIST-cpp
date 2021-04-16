@@ -108,6 +108,5 @@ int main()
     cout<<detectCycle(head)<<endl;
 display(head);
 
-
     return 0;
 }
