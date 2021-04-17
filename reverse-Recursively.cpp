@@ -36,7 +36,7 @@ node* reverseReccursive(node* &head){
     
     head->next->next=head;
     head->next=NULL;
-    
+   
     return newhead;
 }
 
