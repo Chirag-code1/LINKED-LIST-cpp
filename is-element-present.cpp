@@ -36,7 +36,7 @@ void display(node* head){
        // head=head->next;
         cout<<head->data<<"->";
         head=head->next;
-    }
+   }
     cout<<endl;
 }
 
