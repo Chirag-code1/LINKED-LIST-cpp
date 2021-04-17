@@ -70,7 +70,7 @@ int main()
     display(head);//10 20 30 40 50
 
   
-    
+   
     int k=2;
     node* newhead=reversek(head,k);
     display(newhead);
