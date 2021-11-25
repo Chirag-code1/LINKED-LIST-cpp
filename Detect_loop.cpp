@@ -11,7 +11,7 @@ class Result {
           count++;
           temp = temp.next;
         }
-        return count;
+       return count;
       }
     }
     return 0;
