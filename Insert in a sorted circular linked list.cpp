@@ -46,7 +46,7 @@ Node* sortedInsert(Node* head, Node* new_node)
     else if (new_node->data >= head->data)
     {
         while(curr->next != head)
-            curr = curr->next;
+           { curr = curr->next; }
         curr->next = new_node;
         new_node->next = head;
         head = new_node;
