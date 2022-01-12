@@ -38,7 +38,7 @@ void insertAtTail(node* &head, int val){
 
 void display(node* head){
     while(head!=NULL){
-       // head=head->next;
+     
         cout<<head->data<<" ";
         head=head->next;
     }
