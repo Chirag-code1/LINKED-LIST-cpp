@@ -16,4 +16,4 @@ class Result {
     }
     return 0;
   }
-}
+} //revised.
