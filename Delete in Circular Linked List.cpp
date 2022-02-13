@@ -17,5 +17,5 @@ Node* deleteEnd(Node* head){
      curr->next = head;
      return head;
 
-}
+} //revised.
 
